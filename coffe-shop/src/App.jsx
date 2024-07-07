@@ -4,11 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './componants/Header'
 import Home from './pages/Home'
+import Navbar from './componants/Navbar'
 function App() {
   return (
-   <>
-   <Home/>
-   </>
+    <div className='bgcol'>
+      <Home/>
+    </div>
   )
 }
 

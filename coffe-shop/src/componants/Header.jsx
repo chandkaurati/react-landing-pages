@@ -3,7 +3,7 @@ import heroimage from "../../public/cofee.jpg";
 import Button from "./Button";
 function Header() {
   return (
-    <div className="w-full px-3 border xl:flex xl:justify-between">
+    <div className="w-full  lg:flex lg:justify-between">
       <div className="left_section
        xl:flex xl:flex-col xl:justify-center
        xl:gap-3
